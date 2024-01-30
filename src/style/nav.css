@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 80px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.bg-body-tertiary{
+    position: fixed;
+    width: 100%;
+}
+
+.navlist{
+    text-decoration: none ;
+    color: rgb(115, 113, 113);
+    font-size: 22px;
+    font-weight: 444;
+    
+
+}
+
+.navlist:hover{
+    color: rgb(2, 2, 2);
+    font-weight: 490;
+    
+
+}

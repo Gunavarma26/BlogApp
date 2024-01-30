@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.newpostcontainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    background-image: url('../assest/newpost.avif');
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.newpostimg{
+    width: 50%;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.publish{
+    padding: 5px;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.publish:hover{
+    border: none;
+    box-shadow: 2px 2px 4px black;
+    letter-spacing: 0.5px;
+}
+
+.newposttitle{
+    border: none;
+    outline: none;
+    text-align: center;
+    color: black;
+    font-family: serif;
+    font-size: 22px;
+    font-weight: 555;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    border-radius: 5px;
+    width: 600px;
+    box-shadow: 1px 1px 3px rgb(94, 93, 93);
+}
+
+.newpostbody{
+    width: 80vw;
+    height: 300px;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px rgb(39, 39, 39);
+    margin: 10px 0px 50px 0px;
+    border-radius: 10px;
+}
+::placeholder{
+    text-align: center;
+    color: rgb(84, 82, 82);
+}

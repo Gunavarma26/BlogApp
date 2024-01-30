@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.img{
+    margin-top: 100px;
+    width: 50%;
+    height: 350px;
+    border-radius: 10px;
+}
+.titlecontiner{
+    margin: 10px;
+    display: flex;
+    gap: 7mm;
+}
+
+.title{
+    font-family: serif;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 555;
+
+}
+.editbtn{
+    color: rgb(0, 145, 255);
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+}
+.editbtn:hover{
+    color: blue;
+    cursor: pointer;
+}
+.deletbtn{
+    color:orangered;
+    margin-top: 8px;
+    width: 35px;
+    height: 35px;
+}
+
+.deletbtn:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.modal_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .3cm;
+}

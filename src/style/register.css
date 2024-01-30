@@ -1,0 +1,89 @@
+.register{
+   /* background-image: url('../assest/reginster.avif'); */
+   background-image: url('https://img.pikbest.com/58pic/32/77/84/45w58PIChKN1qjT4te3u7_PIC2018.png!w10240');
+    font-family: 'Poppins', sans-serif; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.registerlogo{
+    height: 170px;
+    width: 240px;
+    margin-left: -1050px !important;
+    margin-top: 40px !important;    
+    border-radius: 5px;
+}
+.form{
+    width:500px;
+    background-color: rgb(239, 236, 236);
+    border-radius: 5px;
+    padding:30px;
+    margin-left: 61%;
+    margin-top: -130px;
+    height: 600px;
+
+}
+
+input{
+    border-radius: 5px !important;
+}
+.p{
+    text-align: center;
+    color:#2c0c8c;
+    font-size: 25px;
+    font-weight: 555;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form button{
+    background: linear-gradient(to left, #52afd1, #1879b6,rgb(69, 124, 186),#52afd1);
+    color:white;
+    border: 1px solid #207599;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+    height: 50px;
+}
+.form button:hover{
+    border: 3px solid #207599;
+    letter-spacing: 1px;
+    
+}
+
+.input-group {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-family: cursive;
+    
+}
+
+ .input-group  input  {
+    border-radius: 5px;
+    font-size:20px;
+    padding:5px;
+    border:1px solid rgb(34,193,195) ;
+    border-radius: 5px;
+
+}
+
+.input-group input:focus {
+    outline:0;
+}
+
+.input-group .error {
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border-color: #0cc477;
+}
+
+.input-group.error input {
+    border-color:rgb(206, 67, 67);
+}
